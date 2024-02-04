@@ -1,0 +1,357 @@
+/* Reset styles */
+body, h1, h2, h3, p, ul, li, form, input, textarea, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    /* background-color: #f8f8f8;
+    color: #000000; */
+    background-color: #F5F5F5;
+    color: #212121;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    /* background-color: #333; */
+    background-color: #4CAF50;
+    color: #FFFFFF;
+    padding: 20px;
+    text-align: center;
+}
+
+.navbar {
+    padding: 10px; /* Adjusts the padding around the navbar */
+    background-color: #4CAF50;    
+}
+
+.navbar-brand {
+    margin-right: auto; /* Pushes the brand to the left */
+}
+
+.nav-item.active .nav-link {
+    font-weight: bold;
+}
+
+.navbar-nav li {
+    margin-right: 20px; /* Adds spacing between the nav items */
+}
+
+/* .navbar-nav li:last-child {
+    margin-right: 0; /* Removes the right margin from the last nav item
+} */
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.nav-link btn-order {
+    padding: 10px 20px;
+    background-color: #FF5722;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.nav-link btn-order:hover {
+    background-color: #E64A19; 
+    text-decoration: none;
+}
+
+
+.hero {
+    background-image: url('hero-image.jpg'); /* Replace with your own image */
+    background-size: cover;
+    color: #000;
+    text-align: center;
+    padding: 80px 0;
+}
+
+.hero img, .contact-info img {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.about {
+    padding: 20px;
+    text-align: justify;
+    max-width: 950px;
+    margin: auto;
+    font-size: 20px;
+    color: #8c8c8c;
+}
+
+.about img {
+    max-width: 25%;
+    height: auto;
+}
+
+.hero h2 {
+    text-align: center;
+    font-size: 50px;
+    color: #4CAF50;
+}
+
+.hero p {
+    box-sizing: content-box;
+    text-align: center;
+    font-size: 30px;
+    color: #8c8c8c;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 50px 0px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 95%; /* Adjust this value as needed */
+    margin: 0 auto; /* Centers the paragraph if it has a width less than 100% */
+    border-radius: 25px; /* Makes the border rounder */
+}
+
+.background {
+    padding: 20px;
+    text-align: justify;
+    max-width: 950px;
+    margin: auto;
+    font-size: 18px;
+    color: #8c8c8c;
+}
+
+.background h2 {
+    text-align: center;
+    font-size: 50px;
+    color: #4CAF50;
+}
+
+.background p {
+    margin: 20px 0;  /* Adds vertical space above and below the paragraph */
+    padding: 0 20px;  /* Adds horizontal space on the sides of the paragraph */
+}
+
+.bg-hero img {
+    width: 100%;  /* Adjust this value as needed */
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+
+.features {
+    display: none; /* Hide by default */
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+
+.features ul {
+    list-style-type: none;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.features li {
+    margin-bottom: 20px;
+}
+
+.features h3 {
+    color: #212121;
+    margin-bottom: 10px;
+}
+
+.features p {
+    color: #212121;
+}
+
+/* BuddyBot Features section */
+#about-container {
+	padding: 4em;
+	box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2);
+}
+
+#about-container h3 {
+    text-align: center;
+    font-size: 25px;
+    padding-top: 10px;
+    color: #4CAF50;
+}
+
+#about-container p {
+    box-sizing: content-box;
+    text-align: center;
+    font-size: 18px;
+    color: #8c8c8c;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 1px 0px 10px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 95%; /* Adjust this value as needed */
+    margin: 0 auto; /* Centers the paragraph if it has a width less than 100% */
+    border-radius: 25px; /* Makes the border rounder */
+}
+
+.main-content {
+	display: grid;
+	grid-template-columns: 40% 60%;
+}
+
+.main-content .main-title img {
+    width: 100%;
+    height: auto;
+    border: 1px solid #8a8a8a;
+}
+
+.main-content h2{
+	font-family: 'Francois One', sans-serif;
+	font-style: italic;
+	color: #15375F;
+	font-size: 150%;
+	padding-top: 7%;
+}
+
+
+.main-title, .main-sub {
+	padding:2em;
+	text-align: justify;
+}
+
+.main-sub p {
+    font-size: 18px;
+}
+
+
+
+.about h1, .features h1, #about-container h1, .contact-info h1 {
+    color: #4CAF50;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.about-link, .hero-link {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.hero-link a, .about-link a {
+    font-size: 40px;
+}
+
+.hero-link .btn-primary:hover {
+    background-color: #E64A19; /* A darker orange for hover */
+    border-color: #E64A19;
+}
+
+
+.about-link .btn-primary, .hero-link .btn-primary {
+    background-color: #FF5722; /* A contrasting orange */
+    border-color: #FF5722;
+    border-radius: 10px; 
+}
+
+.about-link .btn-primary:hover {
+    background-color: #E64A19; /* A darker orange for hover */
+    border-color: #E64A19;
+}
+
+.button-container {
+    text-align: center;
+    margin-top: 20px;
+    background-color: #4CAF50;
+    border-color: #4CAF50;
+}
+
+.background, .about, .contact-info, .contact-form {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+/* pre-order page paragraph */
+.contact-info p {
+    box-sizing: content-box;
+    text-align: center;
+    font-size: 25px;
+    color: #8c8c8c;
+    padding: 5px 0px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 95%; /* Adjust this value as needed */
+    margin: 0 auto; /* Centers the paragraph if it has a width less than 100% */
+    border-radius: 25px; /* Makes the border rounder */
+}
+
+/* webpage footer style settings */
+footer {
+    /* background-color: #333; */
+    background-color: #4CAF50;
+    color: #FFFFFF;   
+    text-align: center;
+    padding: 10px;
+}
+
+/* Form styles */
+label, input, textarea {
+    display: block;
+    margin-bottom: 20px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+button {
+    text-align: center;
+    margin-top: 20px;
+    background-color: #4CAF50;
+    border-color: #4CAF50;
+    padding: 10px;
+    color:#FFFFFF;
+    border-radius: 15px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #388E3C; /* A darker green for hover */
+    border-color: #388E3C;
+}
+
+
+/* Media query for mobile devices */
+@media (max-width: 768px) {
+    .hero p {
+        font-size: 30px; /* Smaller font size for mobile devices */
+    }
+
+    .contact-info h1, .contact-form h2 {
+        font-size: 25px;
+    }
+
+    .contact-info p {
+        font-size: 15px;
+    }
+
+    .tablet-desktop {
+        display: none;
+    }
+
+    .features {
+        display: block; /* Show on small screens */
+    }
+
+}
