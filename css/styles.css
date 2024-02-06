@@ -1,4 +1,4 @@
-/* Reset styles */
+    /* Reset styles */
 body, h1, h2, h3, p, ul, li, form, input, textarea, button {
     margin: 0;
     padding: 0;
@@ -335,7 +335,7 @@ button:hover {
 /* Media query for mobile devices */
 @media (max-width: 768px) {
     .hero p {
-        font-size: 30px; /* Smaller font size for mobile devices */
+        font-size: 20px; /* Smaller font size for mobile devices */
     }
 
     .contact-info h1, .contact-form h2 {
